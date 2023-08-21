@@ -1,0 +1,147 @@
+* {
+	border: none;
+	margin: 0;
+}
+
+body {
+	background-color: rgb(45, 74, 99);
+}
+
+/* head */
+
+.head button {
+	background-color: rgb(31, 51, 69);
+	color: white;
+	padding: 13px;
+	font-size: 13px;
+}
+
+.head button:hover {
+	color: rgb(82, 108, 130);
+	padding: 13px;
+}
+
+.head {
+	background-color: rgb(31, 51, 69);
+	width: 100%;
+	height: 100px;
+	height: 53px;
+}
+
+/* member  */
+
+.member-info {
+	color: white;
+	font-size: 35px;
+	font-family: monospace;
+}
+
+.member-info li {
+	color: yellow;
+	font-style: italic;
+}
+
+.member-info a {
+	color: seagreen;
+}
+
+/* private icon */
+
+#noname-private {
+	color: rgb(245, 66, 66);
+	font-size: 50px;
+	font-family: monospace;
+}
+
+#penguiny-private {
+	color: rgb(151, 247, 209);
+	font-size: 50px;
+	font-family: monospace;
+}
+
+/* home-body */
+
+.home-body {
+	font-family: monospace;
+	font-size: 48px;
+}
+
+.home-body #a1 {
+	color: deeppink;
+}
+
+.home-body #a2 {
+	color: purple;
+}
+
+.home-body #a3 {
+	color: darkred;
+}
+
+.home-body #a4 {
+	color: red;
+}
+
+.home-body #a5 {
+	color: orange;
+}
+
+.home-body #a6 {
+	color: yellow;
+}
+
+.home-body #a7 {
+	color: green;
+}
+
+.home-body #a8 {
+	color: blue;
+}
+
+/* ev1 */
+
+.ev1 {
+	background-color: rgb(56, 82, 105);
+}
+
+.ev1 h2 {
+	color: white;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+.ev1 li {
+	color: grey;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+/* ev2 */
+
+.ev2 {
+	background-color: rgb(40, 61, 79);
+}
+
+.ev2 h2 {
+	color: white;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+.ev2 li {
+	color: yellowgreen;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+#c1 {
+	color: aqua;	
+}
+
+/* 100 bài học đắt giá  */
+
+.baihocdatgia p {
+	font-size: 15px !important;
+	color: white !important;
+	font-family: monospace !important;
+}
