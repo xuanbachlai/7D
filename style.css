@@ -1,6 +1,7 @@
 * {
 	border: none;
 	margin: 0;
+	font-family: monospace;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 	background-color: rgb(31, 51, 69);
 	color: white;
 	padding: 18px;
-	font-size: 13px;
+	font-size: 12.5px;
 }
 
 .head button:hover {
@@ -153,13 +154,45 @@ body {
 	.head button {
 		background-color: rgb(31, 51, 69);
 		color: white;
-		padding: 13px;
+		padding: 5px;
 		font-size: 13px;
 		height: 53px;
 	}
-	.head button:hover {
-		background-color: rgb(31, 51, 69);
-		color: rgb(82, 108, 130);
-		padding: 13px;
+	.home-body {
+		font-size: 45px;
 	}
+}
+
+/* table */
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	background-color: white;
+}
+
+table tr:nth-child(even){background-color:  #f2f2f2}
+
+table tr:hover {background-color: #ddd}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+#false {
+	background-color: rgb(255, 128, 128);
+}
+
+#true {
+	background-color: rgb(128, 255, 128);
 }
