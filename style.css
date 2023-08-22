@@ -14,7 +14,7 @@ body {
 	background-color: rgb(31, 51, 69);
 	color: white;
 	padding: 18px;
-	font-size: 12.5px;
+	font-size: 12px;
 }
 
 .head button:hover {
@@ -44,20 +44,6 @@ body {
 
 .member-info a {
 	color: seagreen;
-}
-
-/* private icon */
-
-#noname-private {
-	color: rgb(245, 66, 66);
-	font-size: 50px;
-	font-family: monospace;
-}
-
-#penguiny-private {
-	color: rgb(151, 247, 209);
-	font-size: 50px;
-	font-family: monospace;
 }
 
 /* home-body */
@@ -150,13 +136,13 @@ body {
 
 /* Responsive */
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 	.head button {
 		background-color: rgb(31, 51, 69);
 		color: white;
 		padding: 5px;
 		font-size: 13px;
-		height: 53px;
+		height: 52.5px;
 	}
 	.home-body {
 		font-size: 45px;
@@ -188,6 +174,8 @@ table th {
 	background-color: #04AA6D;
 	color: white;
 }
+
+/* student list */
 
 #false {
 	background-color: rgb(255, 128, 128);
