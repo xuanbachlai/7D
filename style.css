@@ -141,18 +141,37 @@ body {
 
 /* Responsive */
 
-@media(max-width: 616px) {
+@media(max-width: 700px) {
 	.head button {
 		background-color: rgb(31, 51, 69);
 		color: white;
 		padding: 5px;
-		font-size: 13px;
+		font-size: 12px;
 		height: 53px;
 	}
 	.head button:hover {
 		background-color: rgb(45, 74, 99);
 		padding: 5px;
-		font-size: 13px;
+		font-size: 12px;
+		height: 53px;
+	}
+	.home-body {
+		font-size: 45px;
+	}
+}
+
+@media(max-width: 400px) {
+	.head button {
+		background-color: rgb(31, 51, 69);
+		color: white;
+		padding: 5px;
+		font-size: 10px;
+		height: 53px;
+	}
+	.head button:hover {
+		background-color: rgb(45, 74, 99);
+		padding: 5px;
+		font-size: 10px;
 		height: 53px;
 	}
 	.home-body {
