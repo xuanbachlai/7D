@@ -135,9 +135,13 @@ body {
 	font-family: monospace !important;
 }
 
+#term {
+	
+}
+
 /* Responsive */
 
-@media(max-width: 600px) {
+@media(max-width: 616px) {
 	.head button {
 		background-color: rgb(31, 51, 69);
 		color: white;

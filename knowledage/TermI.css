@@ -1,0 +1,29 @@
+#tag0 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 100px;
+  color: #95bf5a;
+}
+#tag0:hover {
+  background-color: #95bf5a;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+}
+
+#downloadbutton {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 1px;
+  width: 250px;
+  color: #000000;
+}
+
+#downloadbutton:hover{
+  background-color: #95bf5a;
+  color: white;
+}
