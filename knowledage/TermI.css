@@ -1,5 +1,9 @@
+* {
+  font-family: "arial";
+}
+
 #tag0 {
-  border-radius: 25px;
+  border-radius: 20px;
   border: 2px solid #73AD21;
   padding: 20px;
   width: 100px;
@@ -10,20 +14,43 @@
   color: white;
 }
 
-p {
+#tagTrainer {
+  border-radius: 20px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  color: #95bf5a;
+}
+#tagTrainer:hover {
+  background-color: #95bf5a;
   color: white;
-  font-size: 11px;
+}
+
+#tag1 {
+  border-radius: 20px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 100px;
+  color: #95bf5a;
+}
+#tag1:hover {
+  background-color: #95bf5a;
+  color: white;
 }
 
 #downloadbutton {
-  border-radius: 25px;
+  border-radius: 20px;
   border: 2px solid #73AD21;
   padding: 1px;
   width: 250px;
-  color: #000000;
+  color: black;
 }
 
 #downloadbutton:hover{
   background-color: #95bf5a;
   color: white;
+}
+
+p {
+  color: whitesmoke;
+  flex-wrap: wrap;
 }
