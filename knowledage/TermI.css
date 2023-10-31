@@ -14,17 +14,6 @@
   color: white;
 }
 
-#tagTrainer {
-  border-radius: 20px;
-  border: 2px solid #73AD21;
-  padding: 20px;
-  color: #95bf5a;
-}
-#tagTrainer:hover {
-  background-color: #95bf5a;
-  color: white;
-}
-
 #tag1 {
   border-radius: 20px;
   border: 2px solid #73AD21;
